@@ -24,3 +24,4 @@ class CustomException(Exception):
     def __str__(self):
         if self.errors:
             return self.errors
+        return self.error_message  # Ensure a string is always returned
