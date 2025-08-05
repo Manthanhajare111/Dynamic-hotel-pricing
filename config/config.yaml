@@ -1,5 +1,5 @@
 data_ingestion:
   bucket_name: "dynamic-hotel-dataset"
-  file_path: "hotel_booking.csv"
+  file_path: "hotel_bookings.csv"
   train_ratio: 0.8
   
